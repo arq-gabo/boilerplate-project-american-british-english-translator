@@ -10,4 +10,7 @@ Content-Type: application/json
 POST http://localhost:3000/api/translate HTTP/1.1
 Content-Type: application/json
 
-{"locale": "american-to-british"}
+{
+    "text": "Mangoes are my favorite fruit",
+    "locale": "british-to-american"
+}
