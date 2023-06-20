@@ -114,6 +114,8 @@ const transAmeriBrit = (
       rtnArr.push(textArr[a]);
     }
   }
+  // This return in the first element return an array with all text translate,
+  //in the second element is an array just word translated for add span class="highlight"
   return [rtnArr, strArrForSpan];
 };
 
